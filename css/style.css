@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* todos los que llevan ID van con #numeral*/
+
+body {
+	background-color: #FFF; /*color de fondo*/
+	font-size: 13px;
+	color: #666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+	width: 96%;
+	max-width: 960px;
+	margin: 0px auto;
+	padding: 2%;
+}
+
+header nav {
+	float: right;
+	margin-top: 5px;
+}
+
+header nav ul {
+	list-style: none;
+	margin: 0px;
+}
+
+header nav ul li {
+	margin: 0;
+	padding: 0;
+	display: inline; /* sale un li al lado del otro*/
+	margin-left: 15px;
+}
+
+h1{
+	margin-bottom:10px;
+	color:#e20018;
+	text-align:center;
+	 
+	
+}
+
+footer {
+	clear: both;
+	width: 100%;
+	padding: 25px 0 0px 0px;
+	text-align: center;
+}
+.centrar { 
+display:block;
+margin:0px auto;
+padding: 10px 0px;
+
+}
+
+.precio {
+	width: 345px;
+	display:block;
+	text-align:center;
+	margin:0px auto;
+	color:#FFF;
+	font-size:25px;
+	font-style:bold;
+	border:1px solid;
+	background-color:#ae0001;
+	
+	
+}
+
+.servicios {
+	
+	text-align:center;
+	font:bold 22px "Trebuchet MS"; 
+
+ 
+}
